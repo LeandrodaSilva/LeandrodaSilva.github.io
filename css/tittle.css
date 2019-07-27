@@ -34,7 +34,7 @@ div.foo {
     transition: all 0.3s ease-in-out;
 }
 .letter:before {
-    color: black;
+    color: white;
     text-shadow: -1px 0px 1px rgba(255, 255, 255, 0.8),
     1px 0px 1px rgba(0, 0, 0, 0.8);
     z-index: 3;
@@ -47,7 +47,7 @@ div.foo {
     skew(0deg, 1deg);
 }
 .letter:hover:before {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     transform: rotateX(0deg) rotateY(-40deg) rotateZ(0deg);
 }
 .letter:hover:after {

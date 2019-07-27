@@ -1,7 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:900);
 
-body{
-    background-color: aliceblue;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header{
+    font-size: 60%;
+}
+.menu-principal {
+    background-color: #90CAF9;
+    width: 100%;
+    color: black;
 }
 
 .campo-digitacao{
@@ -56,6 +71,9 @@ body{
     font-size: 120%;
     color: red;
     text-shadow: 2px 0px #5a5a5a;
+}
+.placar {
+    margin-bottom: 3rem;
 }
 
 table{
