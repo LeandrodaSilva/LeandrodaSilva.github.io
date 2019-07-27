@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Leandro da Silva - Typer Game</title>
+    <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
+    <link rel="stylesheet" href="css/tittle.css">
+	<link rel="shortcut icon"href="img/icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="center"><span class="letter" data-letter="T">T</span>yper</h1>
+        <p class="frase center"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem blanditiis debitis ea ex fugiat, iusto magnam molestias soluta voluptate! Cupiditate facere fugit inventore magnam optio praesentium quaerat quas quod velit?</span><span>Accusamus alias animi assumenda aut commodi, culpa cupiditate delectus dolorum earum est eum eveniet expedita iure iusto maxime molestias nesciunt possimus quas qui rem repudiandae suscipit tempore temporibus voluptas voluptatem.</span></p>
+        <div class="center">
+            <ul class="informacoes center">
+                <li>
+                    <i class="small material-icons icones">short_text</i>
+                    <span id="tamanho-frase">30</span> palavras
+                </li>
+                <li>
+                    <i class="small material-icons icones">av_timer</i>
+                    <span id="tempo-digitacao">20</span> segundos
+                </li>
+            </ul>
+        </div>
+
+        <textarea name="campo-digitacao" class="campo-digitacao z-depth-3" cols="30" rows="10"></textarea>
+        <div>
+            <a class="waves-effect waves-light btn-small" id="botao-reiniciar" disabled="true" ><i class="material-icons left">refresh</i>reiniciar</a>
+        </div>
+        <ul class="center">
+            <li><span id="tamanho-caracteres">0</span> caracteres</li>
+            <li><span id="tamanho-palavras">0</span> palavras</li>
+        </ul>
+
+        <section class="placar">
+            <h3 class="center"><span class="letter" data-letter="P">P</span>lacar</h3>
+            <table class="centered bordered z-depth-3">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>No. de palavras</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Douglas</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Douglas</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Douglas</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+<script src="js/materialize.min.js"></script>
+
+</html>

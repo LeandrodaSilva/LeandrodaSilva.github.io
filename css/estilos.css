@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:900);
+
+body{
+    background-color: aliceblue;
+}
+
+.campo-digitacao{
+    resize: none;
+    font-size: 20px;
+    height: 130px;
+    border: 3px solid #00bfa5;
+}
+
+.campo-digitacao:focus,
+#botao-reiniciar:hover{
+    outline: none !important;
+    box-shadow: 0 0 15px #2bbbad;
+}
+
+.campo-digitacao-vermelho{
+    outline: none !important;
+    border: 3px solid red;
+    box-shadow: 0 0 15px #bf360c !important;
+}
+
+#botao-reiniciar {
+    top: 10px;
+}
+
+.frase {
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.informacoes-center{
+    bottom: 10px;
+}
+
+.campo-digitacao-desativado{
+    background-color: #a7ffeb ;
+}
+
+.icones{
+    vertical-align: middle;
+}
+
+.timer-amarelo{
+    font-size: 110%;
+    color: #d4e157;
+    font-weight: bold;
+    text-shadow: 2px 0px #5a5a5a;
+}
+
+.timer-vermelho{
+    font-size: 120%;
+    color: red;
+    text-shadow: 2px 0px #5a5a5a;
+}
+
+table{
+    border: 3px solid #00bfa5;
+}
+
+
