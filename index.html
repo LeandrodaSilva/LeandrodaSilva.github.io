@@ -1,72 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <title>Leandro da Silva - Typer Game</title>
-    <link rel="stylesheet" href="css/libs/materialize.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/libs/google-fonts.css">
+    <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <link rel="stylesheet" href="css/libs/selectize.default.css">
+    <link rel="stylesheet" href="css/libs/tooltipster.bundle.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/tittle.css">
-	<link rel="shortcut icon"href="img/icon.png">
+    <title>Leandro da Silva</title>
 </head>
-
 <body>
-    <div class="container">
-        <h1 class="center"><span class="letter" data-letter="T">T</span>yper</h1>
-        <p class="frase center"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem blanditiis debitis ea ex fugiat, iusto magnam molestias soluta voluptate! Cupiditate facere fugit inventore magnam optio praesentium quaerat quas quod velit?</span><span>Accusamus alias animi assumenda aut commodi, culpa cupiditate delectus dolorum earum est eum eveniet expedita iure iusto maxime molestias nesciunt possimus quas qui rem repudiandae suscipit tempore temporibus voluptas voluptatem.</span></p>
-        <div class="center">
-            <ul class="informacoes center">
-                <li>
-                    <i class="small material-icons icones">short_text</i>
-                    <span id="tamanho-frase">30</span> palavras
-                </li>
-                <li>
-                    <i class="small material-icons icones">av_timer</i>
-                    <span id="tempo-digitacao">20</span> segundos
-                </li>
-            </ul>
+    <header>
+        <nav class="menu-principal top">
+            <div class="container nav-wrapper">
+                <a href="index.html" class="brand-logo"><span class="letter logo" data-letter="L">L</span></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="">Perfil</a></li>
+                    <li><a href="">Info</a></li>
+                    <li><a href="">Contato</a></li>
+                    <li><a href="typer.html">Typer Game<span class="new badge"></span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="parallax-container">
+            <div class="container">
+                <div class="col s12 m8 offset-m2 l6 offset-l3">
+                    <div class="card-panel grey lighten-5 z-depth-1">
+                        <div class="row valign-wrapper">
+                            <div class="col s2">
+                                <img src="img/perfil.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                            </div>
+                            <div class="col s10">
+                                <h2><span class="letter logo" data-letter="L">L</span>eandro da <span class="letter logo" data-letter="S">S</span>ilva</h2>
+                                <span class="black-text">
+                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet consequatur doloremque, ducimus facere incidunt non officiis perspiciatis repellat tempora! Consequuntur dignissimos doloribus labore, rem ullam velit veritatis? Dicta, nam!</span><span>Ab aperiam asperiores at, corporis deleniti distinctio earum eveniet ex impedit laudantium odit officiis provident soluta tempora velit veniam voluptates. At incidunt ipsam libero natus placeat provident quisquam tempore ullam!</span><span>Dolor dolores eum laboriosam rerum similique sint voluptas? A accusantium aliquam cumque delectus, dolorem doloribus facere facilis incidunt minima nemo, quas repellendus velit vero? Architecto asperiores nostrum quibusdam quidem recusandae?</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax"><img src="img/imagem5.jpg"></div>
         </div>
-
-        <textarea name="campo-digitacao" class="campo-digitacao z-depth-3" cols="30" rows="10"></textarea>
-        <div>
-            <a class="waves-effect waves-light btn-small" id="botao-reiniciar" disabled="true" ><i class="material-icons left">refresh</i>reiniciar</a>
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header center"><span class="letter logo" data-letter="M">M</span>ais</h2>
+            </div>
         </div>
-        <ul class="center">
-            <li><span id="tamanho-caracteres">0</span> caracteres</li>
-            <li><span id="tamanho-palavras">0</span> palavras</li>
-        </ul>
-
-        <section class="placar">
-            <h3 class="center"><span class="letter" data-letter="P">P</span>lacar</h3>
-            <table class="centered bordered z-depth-3">
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                        <th>Nº de palavras</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Douglas</td>
-                        <td>10</td>
-                    </tr>
-                    <tr>
-                        <td>Douglas</td>
-                        <td>10</td>
-                    </tr>
-                    <tr>
-                        <td>Greice</td>
-                        <td>10</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </div>
-
+        <div class="parallax-container">
+           <div class="container">
+               <div class="card-panel">
+                   <h2><span class="letter logo" data-letter="I">I</span>nfo</h2>
+                   <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur eius enim ipsum quia ratione temporibus. Architecto at, consectetur eius eveniet fugiat, id laboriosam nesciunt obcaecati perspiciatis quam quos sed.</p>
+               </div>
+               <div class="card-panel">
+                   <h2><span class="letter logo" data-letter="C">C</span>ontato</h2>
+                   <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur eius enim ipsum quia ratione temporibus. Architecto at, consectetur eius eveniet fugiat, id laboriosam nesciunt obcaecati perspiciatis quam quos sed.</p>
+               </div>
+           </div>
+            <div class="parallax"><img src="img/imagem5.jpg"></div>
+        </div>
+    </main>
 </body>
 <script src="js/jquery.js"></script>
-<script src="js/main.js"></script>
 <script src="js/materialize.min.js"></script>
+<script src="js/principal.js"></script>
 
 </html>
