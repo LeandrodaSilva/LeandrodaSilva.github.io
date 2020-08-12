@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c318bba6-db5a-4651-8342-1d49a434a152" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../precache-manifest.9ffbb1b293791d0a679f543c135bd0b6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/LeandrodaSilva.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codestream.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597269312784</updated>
-      <workItem from="1597269313945" duration="317000" />
+      <workItem from="1597269313945" duration="518000" />
     </task>
     <task id="LOCAL-00001" summary="changed site">
       <created>1597269483981</created>
@@ -58,5 +57,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed site" />
     <option name="LAST_COMMIT_MESSAGE" value="changed site" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="293" y="23" width="853" height="828" key="CommitChangelistDialog2" timestamp="1597269483720">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="293" y="23" width="853" height="828" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1597269483720" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1597269637886">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1597269637886" />
   </component>
 </project>
